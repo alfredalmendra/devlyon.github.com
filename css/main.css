@@ -32,9 +32,10 @@ article {
 }
 
 #members li {
-    width: 300px;
+    width: 600px;
     float: left;
-    height: 120px;
+    height: 500px;
+    text-align: center;
 }
 
 #members li > * {
@@ -42,7 +43,6 @@ article {
 }
 
 #members li > *:first-child {
-    float: left;
     margin: 5px;
 }
 
@@ -50,4 +50,48 @@ article {
     font-size: 16px;
     font-weight: bold;
     margin-top: 5px;
+}
+
+.hopwork span {
+    display: inline-block;
+    background-image: url("../img/hopwork.jpg");
+    width: 30px;
+    height: 28px;
+    font-size: 0;
+}
+
+.github span {
+    display: inline-block;
+    background-image: url("../img/github.png");
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+}
+
+.twitter span {
+    display: inline-block;
+    background-image: url("../img/twitter.png");
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+}
+
+.viadeo span {
+    display: inline-block;
+    background-image: url("../img/viadeo.png");
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+}
+
+.linkedin span {
+    display: inline-block;
+    background-image: url("../img/linkedin.png");
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+}
+
+.clear {
+    clear: both;
 }
