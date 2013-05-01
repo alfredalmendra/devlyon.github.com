@@ -1,26 +1,53 @@
 * {
-  font-family: 'Segoe UI',Verdana,Helvetica,Sans-Serif;
+    font-family: 'Segoe UI',Verdana,Helvetica,Sans-Serif;
 }
 
-#navbar,
-#navbar .nav {
-  background-color: black;
+#navbar, #navbar .nav {
+    background-color: black;
 }
 
 header {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 article h2 {
-  color: white;
-  margin: 0;
-  padding: 50px;
-  text-align: center;
-  background: black;
+    color: white;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #0076A2;
 }
 
 article {
-  height: 500px;
+    min-height: 300px;
+}
+
+#members ul {
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#members li {
+    width: 300px;
+    float: left;
+    height: 120px;
+}
+
+#members li > * {
+    display: block;
+}
+
+#members li > *:first-child {
+    float: left;
+    margin: 5px;
+}
+
+#members li > .name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
 }
